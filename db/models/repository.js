@@ -15,7 +15,9 @@ module.exports = (sequelize, DataTypes) => {
   }
   Repository.init({
     name: DataTypes.STRING,
-    visibility: DataTypes.BOOLEAN
+    visibility: DataTypes.BOOLEAN,
+    userId: DataTypes.INTEGER,
+    slug: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Repository',

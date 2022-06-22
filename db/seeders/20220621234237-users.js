@@ -6,7 +6,7 @@ module.exports = {
     
     let users = [];
 
-    for(let i = 0; i < 3; i++){
+    for(let i = 0; i < 1; i++){
       users.push({
         firstName: randFirstName(),
         lastName: randLastName(),

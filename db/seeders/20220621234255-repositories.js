@@ -6,12 +6,15 @@ module.exports = {
 
     let repos = [];
 
-    for(let i = 0; i < 3; i++){
+    for(let i = 0; i < 1; i++){
+      let name = randJobTitle();
       repos.push({
-        name: randJobTitle(),
+        name: name,
         visibility: randBoolean(),
+        userId: 1,
         createdAt: new Date,
-        updatedAt: new Date
+        updatedAt: new Date,
+        slug: name.replaceAll(" ", "-"),
       })
     }
 
