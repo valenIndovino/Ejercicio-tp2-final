@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@ngneat/falso": "^5.7.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.21.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
